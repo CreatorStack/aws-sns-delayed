@@ -8,7 +8,7 @@ simple Step Functions state machine
 ```json
 {
    "delay_timestamp": "xxxxxxxxxxx" #ISO-8601 extended offset date-time format
-   "sns_topic": "topic name"
+   "sns_topic": "topic arn"
    "message": "stringified message"
 }
 ```
