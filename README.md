@@ -3,6 +3,16 @@
 Schedule or delay message publication on an AWS SNS topic using a
 simple Step Functions state machine
 
+## Usage
+
+```json
+{
+   "delay_timestamp": "xxxxxxxxxxx" #ISO-8601 extended offset date-time format
+   "sns_topic": "topic name"
+   "message": "stringified message"
+}
+```
+
 ## Blog Post
 
 For more information on how to use this sample stack, please read this
