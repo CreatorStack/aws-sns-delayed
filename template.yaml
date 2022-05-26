@@ -27,7 +27,8 @@ Resources:
                       "Resource": "arn:aws:states:::sns:publish",
                       "Parameters": {
                         "TopicArn.$": "$.sns_topic",
-                        "Message.$": "$.message"
+                        "Message.$": "$.message",
+                        "MessageGroupId.$": "$.message_group_id"
                       },
                       "End": true
                     }
